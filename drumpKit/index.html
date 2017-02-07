@@ -58,8 +58,12 @@
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
 <script>
-</script>
+window.addEvenListener('keydown', function(e){
+  console.log(e.keycode);
 
+});
+
+</script>
 
 </body>
 </html>
